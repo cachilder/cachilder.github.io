@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 ::before, ::after {
   box-sizing: inherit;
 }
@@ -27,7 +28,7 @@ color:black;
 }
 a {
   text-decoration:none;
-  color:white;
+  color:#FAF9F6;
 }
 #title {
   display: block;
@@ -37,7 +38,7 @@ a {
   #firstline {
 
     font-size:10px ;
-    color:white;
+    color:#FAF9F6;
     z-index: 1;
 
   }
@@ -45,60 +46,60 @@ a {
   #secondline {
 
     font-size:13px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: -9;
   }
   #thirdline {
     
     font-size:15px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
   }
   #fourthline {
     
     font-size:20px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: -7;
   }
   #fifthline {
    
     font-size:25px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
 
   }
   #sixthline {
     
     font-size:30px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
 
   }
   #seventhline {
    
     font-size:35px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
 
   }
   #eighthline {
     
     font-size:40px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: -1;
 
   }
   #ninthline {
    
     font-size:45px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
 
   }
   #tenthline {
     
     font-size:50px ;
-    color:white ;
+    color:#FAF9F6 ;
     z-index: 1;
 
   }
