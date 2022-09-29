@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 ::before, ::after {
   box-sizing: inherit;
