@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+::before, ::after {
+  box-sizing: inherit;
+}
+.grid-container {
+  display: grid;
+  background-color: none;
+  grid-template-columns: 550px 550px 550px;
+  gap: 20px;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: none;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+a:hover {
+text-decoration:none;
+color:black;
+}
+a {
+  text-decoration:none;
+  color:#FAF9F6;
+}
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+  #firstline {
+
+    font-size:10px ;
+    color:#FAF9F6;
+    z-index: 1;
+
+  }
+  
+  #secondline {
+
+    font-size:13px ;
+    color:#FAF9F6 ;
+    z-index: -9;
+  }
+  #thirdline {
+    
+    font-size:15px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+  }
+  #fourthline {
+    
+    font-size:20px ;
+    color:#FAF9F6 ;
+    z-index: -7;
+  }
+  #fifthline {
+   
+    font-size:25px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+
+  }
+  #sixthline {
+    
+    font-size:30px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+
+  }
+  #seventhline {
+   
+    font-size:35px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+
+  }
+  #eighthline {
+    
+    font-size:40px ;
+    color:#FAF9F6 ;
+    z-index: -1;
+
+  }
+  #ninthline {
+   
+    font-size:45px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+
+  }
+  #tenthline {
+    
+    font-size:50px ;
+    color:#FAF9F6 ;
+    z-index: 1;
+
+  }
+  #footer {
+    top:75%;
+    left: 10%;
+    transform:translate(-50%, 50%);
+    z-index: 1;
+
+  }
+  #date {
+    font-size: 20px;
+    z-index: 1;
+
+  }
+  #houses {
+  position:relative;
+  float: right;
+  z-index: -2;
+  }
+  #fallingupchild {
+      width: 110px;
+      height: 107px;
+      float: right;
+      position: relative;
+      animation-name: example;
+      animation-duration: 25s;
+      animation-delay: -2s;
+      z-index: -1;
+    }
+    
+    @keyframes example {
+      0%   { top:500px;left:-50px;}
+      100% { top:40px;left:-50px;}
+    }
+
+    .animate-this-element {
+      animation: example 5s infinite;
+    }
+    @media (min-width:600px) {
+      .grid-container { grid-template-columns: repeat(3, 1fr);}
+    }
