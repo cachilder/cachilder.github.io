@@ -1,0 +1,204 @@
+
+/* notes: spend some time making comments on how Flexbox and Grid are working here and
+personalize this portfolio page using google fonts, different colors, different hover and active styling, maybe a different layout or viewport response*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(255, 255, 255)
+    ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(47, 47, 36);
+    /* background-color: rgb(82, 99, 69);  play with a color scheme! */
+}
+
+main {
+    font-family: 'Times New Roman', Times, serif; /* try using a google font instead*/
+    border: 1px, solid, rgb(255, 255, 255)
+    e;
+}
+
+nav {
+    width: 960px;
+    height: 200px;
+    position: left;
+}
+/*made nav area larger*/
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 100px;
+    color:rgb(255, 255, 255)
+    ;
+    font-family: 'Roboto', sans-serif;
+
+}
+a:link{
+    color:rgb(255, 255, 255);
+
+}
+a:visited {
+    color: rgb(255, 255, 255)
+    ;
+}
+a:hover {
+    color: #7c7c5e;
+}
+#home {
+    flex: auto;
+    padding: 20px;
+ }
+
+#nav-links li{
+    padding: 1em; /* what does em mean? space between each item*/
+    color:#225560;
+}
+
+#projects-grid{
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: 1fr 1fr 1fr; /* what does fr mean?*/
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px; 
+    background-color:rgb(255, 255, 255);
+    border-color:1px rgb(47, 47, 36);
+    padding-top: 30px;
+    /* background: rgba(102, 119, 59, 0.5);  play with color
+    added padding to put space between bottom of header and top of grid*/
+    
+}
+
+#page_title{
+    grid-column: 1/4;
+    text-align: center;
+    max-width: 100%;
+    padding: 0px 40px;
+    color: rgb(255, 255, 255);
+    background-color: #2f2f24;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+/*moved padding to line page title and nav links*/
+.project_item {
+    display: grid;  /* we have a grid inside a grid here, with each item as its own grid*/
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas:
+    "image number"
+    "image title"
+    "image description";
+    grid-column-gap: 15px;
+    align-items: center;
+    background: rgb(255, 255, 255); /*  play with color*/
+    border-color:10px  #2f2f24;
+}
+
+.project_image { 
+    grid-area: image; 
+}
+.project_number { 
+    grid-area: number; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: #27271e;
+}
+/*added background color to differentiate link from background*/
+.project_title { 
+    grid-area: title; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+}
+.project-description { 
+    grid-area: description; 
+    font-family: 'Trirong', serif;
+    font-size: 13px;
+}
+
+#footer-items{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 960px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 10px solid #2f2f24; /* again, play with this styling*/
+    margin-top: 2rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(47, 47, 36);
+    background-size: auto;
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px){ /* what is going on here?  make text responsive as screen scales*/
+    #projects-grid{
+    grid-template-columns: 1fr 1fr;
+    font-size: 5px;
+    }
+    
+    #page_title{
+        grid-column: 1/3;
+        font-size: 30px;
+    }
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+    }
+    #project-description {
+        font-size: 10px;
+    }
+    .project_number {
+        font-size:  13px;
+    }
+    .project_title {
+        font-size: 13px;
+    }
+    .project_image {
+        size: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #projects-grid{
+    grid-template-columns: 1fr;
+    font-size: 15px;
+    }
+    
+    #page_title{
+        grid-column: 1/2;
+        font-size: 30px;
+    }
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        background-size: auto;
+    }
+    .project-description {
+        font-size: 10px;
+    }
+    .project_number {
+        font-size:  15px;
+    }
+    .project_title {
+        font-size: 13px;
+    }
+    .project_image {
+        size: auto;
+    }
+}
