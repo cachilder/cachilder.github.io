@@ -104,7 +104,7 @@ a:hover {
 }
 
 .project_image { 
-    grid-area: image; 
+    grid-area: image;
 }
 .project_number { 
     grid-area: number; 
