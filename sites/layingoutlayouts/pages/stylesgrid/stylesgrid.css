@@ -8,6 +8,10 @@ a:visited {
 a:hover {
   color:blue;
 }
+#headerlinks {
+  padding-left: 40px;
+  padding-top: 20px;
+}
 #header {
   align-items: center;
   justify-content: center;

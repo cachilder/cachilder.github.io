@@ -8,9 +8,6 @@ a:visited {
 a:hover {
   color:blue;
 }
-#boxmodellinkheader {
-  padding: 20px;
-}
 #headerlinks {
   padding-left: 40px;
   padding-top: 20px;
@@ -23,25 +20,28 @@ a:hover {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 40px;
 }
+#flexboxlinkheader {
+  padding-left:20px;
+}
+#floatlink{
+  padding:10px;
+}
+#leftpointer {
+  float: left;
+  padding: 40px;
+}
 .flex-container {
   display: flex;
-  flex-direction: row;
-  background-color: green;
-  justify-content: center;
 }
-
-.flex-container>div {
-  background-color: rgb(200, 200, 201);
+.flex-container > div {
   margin: 10px;
-  padding-left: 20px;
-  padding-right: 50px;
-  font-size: 30px;  
+  padding: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
 }
-#lastline {
-  color: rgb(200, 200, 201);
-}
-#flexboxlink {
-  padding:10px;
+#rightpointer {
+  float: right;
+  padding: 20px;
 }
 @media only screen and (min-width: 301px) and (max-width: 850px)
 {
@@ -49,13 +49,16 @@ a:hover {
   height: auto;
   width: auto;
 }
+#leftpointer {
+  height: auto;
+  width: auto;
+}
+#rightpointer {
+  height: auto;
+  width: auto;
+}
 .flex-container {
   flex-direction: column;
   align-items: center;
-  margin-left:100px;
-  margin-right: 100px;
-  margin-top: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 }
