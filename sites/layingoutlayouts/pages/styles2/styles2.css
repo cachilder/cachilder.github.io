@@ -1,0 +1,100 @@
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:blue;
+}
+#boxmodellink {
+  padding: 10px;
+}
+#header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+#flexboxheader {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+#firstbox {
+    background-color: lightgrey;
+    padding: 70px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#secondbox {
+  background-color: green;
+    padding: 70px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#thirdbox {
+  background-color: rgb(146, 151, 157);
+    padding: 70px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#fourthbox {
+  background-color: rgb(200, 200, 201);
+    padding: 70px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px)
+{
+#box {
+  height: auto;
+  width: auto;
+}
+#header {
+  height: auto;
+  width: auto;
+}
+#firstbox {
+  height: auto;
+  width: auto;
+}
+#secondbox {
+  height: auto;
+  width: auto;
+}
+#thirdbox {
+  height: auto;
+  width: auto;
+}
+#fourthbox {
+  height: auto;
+  width: auto;
+}
+}
