@@ -1,0 +1,61 @@
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:blue;
+}
+#boxmodellinkheader {
+  padding: 20px;
+}
+#headerlinks {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  justify-content: space-around;
+}
+
+.flex-container>div {
+  background-color: rgb(200, 200, 201);
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+  font-size: 30px;  
+}
+#lastline {
+  color: rgb(200, 200, 201);
+}
+#flexboxlink {
+  padding:10px;
+}
+@media only screen and (min-width: 301px) and (max-width: 850px)
+{
+#header {
+  height: auto;
+  width: auto;
+}
+.flex-container {
+  flex-direction: column;
+  align-items: center;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+}

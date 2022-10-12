@@ -33,71 +33,74 @@ a:hover {
 }
 #firstbox:hover {
     background-color: lightgrey;
-    padding: 20px;
-    margin: 5px;
-    align-items: top;
-    justify-content: top;
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    width:100%;
+    width:auto%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #secondbox:hover {
   background-color: green;
-    padding: 20px;
-    margin: 5px;
-    align-items: top;
-    justify-content: top;
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    width:100%;
+    width:auto%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 #thirdbox:hover {
   background-color: rgb(146, 151, 157);
-    padding: 20px;
-    margin: 5px;
-    align-items: top;
-    justify-content: top;
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    width:100%;
+    width:auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 #fourthbox:hover {
   background-color: rgb(200, 200, 201);
-    padding: 20px;
-    margin: 5px;
-    align-items: top;
-    justify-content: top;
+    padding: 65px;
+    margin:2px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    width:100%;
+    width:auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 @media only screen and (min-width: 601px) and (max-width: 850px)
 {
-#box {
-  height: auto;
-  width: auto;
-}
 #header {
+  width: auto;
   height: auto;
+  margin: auto;
+  padding: auto;
 }
 #firstbox {
-  height: auto;
   width: auto;
-}
+  height: auto;
+  margin: auto;
+  padding: auto;}
 #secondbox {
-  height: auto;
   width: auto;
-}
+  height: auto;
+  margin: auto;
+  padding: auto;}
 #thirdbox {
-  height: auto;
   width: auto;
-}
+  height: auto;
+  margin: auto;
+  padding: auto;}
 #fourthbox {
-  height: auto;
   width: auto;
-}
+  height: auto;
+  margin: auto;
+  padding: auto;}
 }
