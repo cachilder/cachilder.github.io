@@ -16,6 +16,11 @@
     font-family: 'Bitter', serif;
 }
 
+form > input, form > textarea, form > label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 body {
     font-family: Arial;
     margin: 0;
