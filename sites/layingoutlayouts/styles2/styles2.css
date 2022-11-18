@@ -1,0 +1,223 @@
+#boxmodellinkheader {
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  justify-content: center;
+}
+
+.flex-container>div {
+  background-color: rgb(200, 200, 201);
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+  font-size: 30px;  
+}
+#lastline {
+  color: rgb(200, 200, 201);
+}
+#flexboxlink {
+  padding:10px;
+}
+@media only screen and (min-width: 301px) and (max-width: 850px)
+{
+#header {
+  height: auto;
+  width: auto;
+}
+.flex-container {
+  flex-direction: column;
+  align-items: center;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+}
+
+
+
+#gridlink {
+    padding:10px;
+}
+#flexboxlinkheader {
+  padding: 20px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: green;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgb(200, 200, 201);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:blue;
+}
+#boxmodellink {
+  padding: 10px;
+}
+#headerlinks {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+#flexboxheader {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+#firstbox:hover {
+    background-color: lightgrey;
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:auto%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#secondbox:hover {
+  background-color: green;
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:auto%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#thirdbox:hover {
+  background-color: rgb(146, 151, 157);
+    padding: 65px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#fourthbox:hover {
+  background-color: rgb(200, 200, 201);
+    padding: 65px;
+    margin:2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#flexboxlinkheaderfloat {
+  padding-left:20px;
+}
+#floatlink{
+  padding:10px;
+}
+#leftpointer {
+  float: left;
+  padding: 40px;
+}
+.flex-containerfloat {
+  display: flex;
+}
+.flex-containerfloat > div {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+#rightpointer {
+  float: right;
+  padding: 20px;
+}
+@media only screen and (min-width: 601px) and (max-width: 850px)
+{
+#header {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+#firstbox {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;}
+#secondbox {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;}
+#thirdbox {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;}
+#fourthbox {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;}
+  #header {
+    height: auto;
+    width: auto;
+  }
+  .grid-container {
+    box-sizing: border-box;
+  }
+    #headerfloat {
+      height: auto;
+      width: auto;
+    }
+    #leftpointer {
+      height: auto;
+      width: auto;
+    }
+    #rightpointer {
+      height: auto;
+      width: auto;
+    }
+    .flex-containerfloat {
+      flex-direction: column;
+      align-items: center;
+    }
+}
