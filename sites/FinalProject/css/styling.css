@@ -10,8 +10,47 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
+.parallaxindex {
+  /* The image used */
+  background-image: url("https://letraslibres.com/wp-content/uploads/2020/11/grecia.jpg");
 
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxmethod {
+  /* The image used */
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-e603b01ad34f8e60b8aeb0c87b501327-lq");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxsubmit {
+  /* The image used */
+  background-image: url("http://www.pitts.emory.edu/woodcuts/1700MartAV2/00029140.jpg");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 header {
     display: flex;
     box-sizing: border-box;
@@ -130,6 +169,7 @@ a:hover {
   }
 #paragraph {
     font-size: 20px;
+    line-height: 2;
 }
 .grid-container2 {
     display: grid;
@@ -154,7 +194,20 @@ a:hover {
     text-align: center;
     border-right: 10px solid white;
   }
-
+  .grid-method {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(224, 224, 224);
+  }
+  .grid-itemmethod {
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .grid-itemsubmit {
+    font-size: 20px;
+    text-align: left;
+  }
   body {
     font-family: Arial;
   }
