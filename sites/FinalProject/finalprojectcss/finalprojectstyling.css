@@ -1,0 +1,714 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://media.istockphoto.com/id/516413199/vector/ancient-greeks-observing-the-stars.jpg?s=612x612&w=0&k=20&c=Uk4ZRFxKc-p4nTD4tJWIBy7WzmG5F7Q9_0RHI-S6nOM=");
+  
+    /* Set a specific height */
+    min-height: 350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:0px 20px 40px 5px black;
+
+}
+.parallaxindex {
+  /* The image used */
+  background-image: url("https://letraslibres.com/wp-content/uploads/2020/11/grecia.jpg");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  box-shadow:0px 20px 40px 5px black;
+
+}
+.parallaxcontact {
+  /* The image used */
+  background-image: url("https://www.ancient-origins.net/sites/default/files/styles/large/public/Solon-writing-laws-for-Athens.jpg?itok=AoiofwI5");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  box-shadow:0px 20px 40px 5px black;
+
+}
+.parallaxmethod {
+  /* The image used */
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-e603b01ad34f8e60b8aeb0c87b501327-lq");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:0px 20px 40px 5px black;
+
+}
+.parallaxsubmit {
+  /* The image used */
+  background-image: url("https://assets.ltkcontent.com/images/94627/ancient-greek-government_fa769d4d20.webp");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow:0px 20px 40px 5px black;
+
+}
+header {
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(36,30, 78);
+    background-size: auto;
+    box-shadow:0px 20px 40px 5px black;
+    z-index: 1;
+
+}
+
+.flex-container {
+    padding: 1em;
+}
+#input {
+    padding:10px;
+}
+#myTextnotes {
+    padding: 2em;
+}
+nav {
+    width: 960px;
+    height: 200px;
+    position: center;
+    z-index: 1;
+}
+/*made nav area larger*/
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 100px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+a:link{
+    color:black;
+
+}
+a:visited {
+    color:black;
+    ;
+}
+a:hover {
+    color: #c5c5c5;
+}
+#home {
+    flex: auto;
+    padding: 20px;
+ }
+
+#page_title{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    z-index: 1;
+}
+#header3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(225, 172, 0);
+    background-size: auto;
+    font-size: 20px;
+    border-top: 0em;
+}
+#sidebar {
+    font-size: 20px;
+}
+#information {
+    text-align: left;
+}
+#nav {
+    padding: 1em;
+}
+
+#header2 {
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:rgb(79, 0, 139);
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+    background-size: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 2em;
+  }
+  .grid-item {
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+#paragraph {
+    font-size: 20px;
+    line-height: 2;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item2 {
+    border: 4px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-biography {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(224, 224, 224);
+  }
+  .grid-item4 {
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-method {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: rgb(224, 224, 224);
+    padding:4em;
+  }
+  .grid-itemmethod {
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .grid-itemsubmit {
+    font-size: 20px;
+    text-align: left;
+  }
+  body {
+    font-family: Arial;
+  }
+  #sourcelist {
+    font-size: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+#footer-items{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 100px;
+    margin-top: 2rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(36,30, 78);
+    background-size: auto;    
+}
+
+/*expand image on click*/
+
+@media only screen and (min-width: 601px) and (max-width: 850px){ 
+    #page_title{
+        text-align: center;
+        max-width: 100%;
+        font-size: 30px;
+    }
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 100%;
+      }
+      .grid-item2 {
+        padding: 40px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+    
+    #myUL {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #myUL li a {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+    }
+    
+    #myUL li a:hover:not(.header) {
+      background-color: #eee;
+    }
+    
+}
+/*hover image code*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+body2 {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content2, #caption2 {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes2 zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes2 zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media2 only screen and (max-width: 700px){
+  .modal-content2 {
+    width: 100%;
+  }
+}
+// Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+/*video code*/
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+/*submitformcode*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(36,30, 78);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(225, 172, 0);
+  color:black;
+}
+input[type=text], reset {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=reset] {
+  width: 100%;
+  background-color: rgb(225, 172, 0);
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: rgb(36,30, 78);
+  color:white;
+}
+
+div {
+  border-radius: 5px;
+}
+/*back to top button*/
+#myTopBtn {
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  outline: none;
+  color: Black;
+  font-size: small;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width:100%;
+}
+@media only screen and (max-width: 600px){
+
+  #page_title{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+    .parallaxindex {
+      /* The image used */
+      background-image: url("https://letraslibres.com/wp-content/uploads/2020/11/grecia.jpg");
+    
+      /* Set a specific height */
+      min-height: 200px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
+    .parallax {
+      /* The image used */
+      background-image: url("https://media.istockphoto.com/id/516413199/vector/ancient-greeks-observing-the-stars.jpg?s=612x612&w=0&k=20&c=Uk4ZRFxKc-p4nTD4tJWIBy7WzmG5F7Q9_0RHI-S6nOM=");
+    
+      /* Set a specific height */
+      min-height: 200px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+    .parallaxindex {
+      /* The image used */
+      background-image: url("https://letraslibres.com/wp-content/uploads/2020/11/grecia.jpg");
+    
+      /* Set a specific height */
+      min-height: 200px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
+    .parallaxmethod {
+      /* The image used */
+      background-image: url("https://qph.cf2.quoracdn.net/main-qimg-e603b01ad34f8e60b8aeb0c87b501327-lq");
+    
+      /* Set a specific height */
+      min-height: 200px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallaxsubmit {
+      /* The image used */
+      background-image: url("http://www.pitts.emory.edu/woodcuts/1700MartAV2/00029140.jpg");
+    
+      /* Set a specific height */
+      min-height: 200px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #header3 {
+      font-size: 16px;
+    }
+    #myUL {
+      font-size: 14px;
+      list-style: none;
+    }
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        background-size: auto;
+    }
+}
