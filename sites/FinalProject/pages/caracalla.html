@@ -43,8 +43,15 @@
             
             <div class="grid-biography">
                 <div class="grid-item4" id="sidebar">
-                    <img src="https://www.livius.org/site/assets/files/9248/caracalla_altes_museum.596x0-is-pid9912.jpg"
-                    height="400px" width="400px">
+                    <img id="myImg" src="https://www.livius.org/site/assets/files/9248/caracalla_altes_museum.596x0-is-pid9912.jpg" alt="Caracalla" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModalCaracalla" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
                     <p><a href=https://www.livius.org/pictures/a/roman-emperors/caracalla>Image credit</a></p>
                 </div>
                 <div class="grid-item4" id="information">Caracalla
@@ -62,9 +69,16 @@
                     </p>
                 </div>
                 <div class="grid-item4" id="sidebar">
-                    <img src="https://i.ibb.co/K0JtYQ4/Screenshot-2022-11-29-at-12-37-13-PM.png"
-                    height="380px" width="400px">
-                    <p>Made with <a href=https://voyant-tools.org/docs/#!/guide/about>Voyant</a></p>
+                    <img id="myImg2" src="https://i.ibb.co/k072XfG/Screenshot-2022-11-29-at-2-10-38-PM.png" alt="Voyant Visual" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+<span class="close2">&times;</span>
+<img class="modal-content2" id="img02">
+<div id="caption2"></div>
+</div>
+                    
+                    <p>Made with <a href="https://i.ibb.co/k072XfG/Screenshot-2022-11-29-at-2-10-38-PM.png">Voyant</a></p>
                 </div>
                 <div class="grid-item4" id="information">Citations
 
@@ -122,6 +136,8 @@ Africa, Thomas W. “PSYCHOHISTORY, ANCIENT HISTORY, AND FREUD: THE DESCENT INTO
                     </ol>
                 </div>
               </div>
+              <div class="button"><button onclick="topFunction()" id="myTopBtn" title="Go to top">Back to top &uarr;	</button></div>
+
         </body>
                 
         <footer>
