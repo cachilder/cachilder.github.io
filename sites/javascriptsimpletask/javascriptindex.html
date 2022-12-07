@@ -6,7 +6,7 @@
         <meta name="author" content ="caitlinchilders">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>javascriptsimpletask</title>
-        <link href="css/javascriptsimpletask.css" type="text/css" rel="stylesheet">
+        <link href="javascriptsimpletaskcss/javascriptsimpletask.css" type="text/css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Trirong:wght@800;900&display=swap" rel="stylesheet">
@@ -34,15 +34,16 @@
         <div class="flex-container">
             <div>
                 <ul style="list-style: none;">
-                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                    <form action="mailto:caitli.childers@duke.edu" method="post" enctype="text/plain">
                     <form id="myForm">
-                    <li id="input">*Name of submitter <input type="text" name="fname1"></li>
-                    <li id="input">*Name of submission <input type="text" name="fname2"></li>
-                    <li id="input">*Date of Existence <input type="text" name="fname3"></li>
-                    <li id="input">*Location of Origin <input type="text" name="fname4"></li>
-                    <li id="input">*Email <input type="text" name="fname5"></li>
-                    <li id="input">Notes <input type="text" id="myTextnotes"></li>
-                    <li id="button"><input type="submit" value="Submit"></form>
+                    <li id="input">*Name of submitter <input type="text" name="submitter name"></li>
+                    <li id="input">*Name of submission <input type="text" name="submission name"></li>
+                    <li id="input">*Date of Existence <input type="text" name="date of existence"></li>
+                    <li id="input">*Location of Origin <input type="text" name="location of origin"></li>
+                    <li id="input">*Email <input type="text" name="email"></li>
+                    <li id="input">Notes <input type="text" id="notes"></li>
+                    <li id="button"><input type="submit" value="Submit">
+                    <li id="button"><input type="reset" value="Reset"></form>
                         
                     </li>
                     
@@ -56,5 +57,5 @@
             </ul>
         </footer>
     </body>
-    <script src="javascrimptsimpletask.js"></script>
+    <script src="javascriptsimpletaskjsfile/javascrimptsimpletask.js"></script>
 </html>

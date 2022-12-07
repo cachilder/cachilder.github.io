@@ -1,0 +1,148 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(255, 255, 255)
+    ;
+}
+
+header {
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    background-color:darkblue;
+    background-size: auto;
+}
+
+.flex-container {
+    padding: 1em;
+}
+#input {
+    padding:10px;
+}
+#myTextnotes {
+    padding: 2em;
+}
+nav {
+    width: 960px;
+    height: 200px;
+    position: center;
+}
+/*made nav area larger*/
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 70px 100px;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+a:link{
+    color:rgb(255, 255, 255);
+
+}
+a:visited {
+    color: rgb(255, 255, 255)
+    ;
+}
+a:hover {
+    color: #c5c5c5;
+}
+#home {
+    flex: auto;
+    padding: 20px;
+ }
+
+#nav-links li{
+    padding: 1em;
+}
+
+#page_title{
+    grid-column: 1/4;
+    text-align: center;
+    max-width: 100%;
+    padding: 0px 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+.project_title { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+}
+.flex-container {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+    
+  }
+  
+  .flex-container>div {
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 20px;  
+  }
+  #acolor {
+    color:red;
+  }
+#button {
+    display: flex;
+    position: center;
+    align-items: center;
+    padding-top: 1em;
+}
+#footer-items{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 100px;
+    margin-top: 2rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    background-color:darkblue;
+    background-size: auto;    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px){ 
+    #page_title{
+        grid-column: 1/3;
+        font-size: 30px;
+    }
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    #page_title{
+        grid-column: 1/2;
+        font-size: 20px;
+    }
+    #footer-items {
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        background-size: auto;
+    }
+}
